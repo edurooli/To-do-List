@@ -1,0 +1,104 @@
+  *{
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(526deg, black, #5F5F5F, black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover ;
+  width: 100%; height: auto;
+  text-align: center;
+  margin: 0;
+  font-family: Sans-serif;
+}
+h1{
+  font-size: 3rem;
+  color: white;
+}
+header{
+  display: flex;
+  width: 86%;
+  margin: auto;
+  margin-top: 10%;
+  height: 60px;
+  transition: .5s;
+}
+header:hover{
+  height: 65px;
+  width: 90%;
+  margin: auto;
+}
+.input-text{
+  outline: green;
+  border-radius: 50px 0 0 50px;
+  border:none;
+  text-align: center;
+  flex: 80%;
+}
+.add{
+  background: #73FF6F;
+  border-radius: 0 50px 50px 0;
+  border: none;
+  flex:20%;
+}
+main{
+  border-radius: 24px;
+  padding: 20px 12px 20px 12px;
+  border: 1px solid white;
+  height: 60vh;
+  overflow: scroll;
+  display: column;
+  width: 86%;
+  margin: 5% 7%;
+}
+
+
+.tarefa{
+  background: white;
+  border-radius: 10px;
+  display:flex;
+  width: 99%;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 12px;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+.check{
+  background: none;
+  font-size: 16pt;
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  flex: 17%;
+  border: none;
+}
+.oq{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 100%;
+  font-size: 14px;
+  background: none;
+  flex:66%;
+}
+.delete{
+  font-size: 16pt;
+  background: #FF6F6F;
+  border:none;
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+  flex: 17%;
+}
+.marked{
+  color: #7E7F87;
+  background: #73FF6F;
+ text-decoration: line-through;
+ text-decoration-thickness: 1.4px;
+  
+}
+.delCheck{
+  color: white;
+  background: #34461D;
+}
